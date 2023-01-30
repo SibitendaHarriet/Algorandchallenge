@@ -1,0 +1,23 @@
+{
+    "name": "harrietz",
+    "description": "harriet 10 Academy completion certificate",
+    "properties": {
+        "simple_property": "NFTs certificate",
+        "rich_property": {
+            "name": "harrietz",
+            "value": "000001",
+            "display_value": "0000001",
+            "class": "emphasis",
+            "css": {
+                "color": "#ffffff",
+                "font-weight": "bold",
+                "text-decoration": "underline"
+            }
+        },
+        "array_property": {
+            "name": "Artwork",
+            "value": [1, 2, 3, 4],
+            "class": "emphasis"
+        }
+    }
+}

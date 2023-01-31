@@ -48,8 +48,8 @@ def closedacc(algod_client, account):
 ## created account 
 def createdacc(fund=True):
   # Change algod_token and algod_address to connect to a different client
-  algod_token = "bbb"
-  algod_address = "https://sites.google.com/view/sibitenda-harriet/"
+  algod_token = "2f3203f21e738a1de6110eba6984f9d03e5a95d7a577b34616854064cf2c0e7b"
+  algod_address = "https://academy-algod.dev.aws.algodev.network/"
   algod_client = algod.AlgodClient(algod_token, algod_address)
 
   #Generate new account for this transaction
@@ -132,7 +132,7 @@ def create_non_fungible_token():
         freeze=None,
         clawback=None,
         strict_empty_address_check=False,
-        url="https://app.pinata.cloud/pinmanager",
+        url="https://gateway.pinata.cloud/ipfs/QmXARven5z9VC64kt8ZHwA6R3qT3bfqXkJftJRHZtrNMye",
         metadata_hash=json_metadata_hash,
         decimals=0)
 

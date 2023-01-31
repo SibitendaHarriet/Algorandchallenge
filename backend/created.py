@@ -11,9 +11,10 @@ import time
 
 def createdacc(fund=True):
   # Change algod_token and algod_address to connect to a different client
-  algod_token = "bbb"
-  algod_address = "https://sites.google.com/view/sibitenda-harriet/"
+  algod_token = "2f3203f21e738a1de6110eba6984f9d03e5a95d7a577b34616854064cf2c0e7b"
+  algod_address = "https://academy-algod.dev.aws.algodev.network/"
   algod_client = algod.AlgodClient(algod_token, algod_address)
+
 
   #Generate new account for this transaction
   secret_key, my_address = account.generate_account()

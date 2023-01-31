@@ -1,0 +1,24 @@
+{
+    "name": "Trainee Certificate",
+    "description": "Certificate",
+    "image_integrity" : "",
+    "properties": {
+        "simple_property": "Trainee unique Certificate",
+        "rich_property": {
+            "name": "Certificate",
+            "value": "001",
+            "display_value": "001",
+            "class": "emphasis",
+            "css": {
+                "color": "#ffffff",
+                "font-weight": "bold",
+                "text-decoration": "underline"
+            }
+        },
+        "array_property": {
+            "name": "Certificate",
+            "value": [1, 2, 3, 4],
+            "class": "emphasis"
+        }
+    }
+}
